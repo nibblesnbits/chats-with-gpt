@@ -8,4 +8,6 @@ tags:
     - first-post
 ---
 
-# Website Idea for Sharing (Genesis)
+Where it all started.
+
+This site.  Not my daily discussions with an AI.

@@ -13,10 +13,12 @@ export const getStaticPaths = (async () => {
 type Props = InferGetStaticPropsType<typeof getStaticPaths>;
 
 const { post } = Astro.props;
+const { Content } = await post.render();
 ---
 
 <BlogPost post={post}>
   <a href={post.data.link} class="text-accent sm:hover:underline"
     >Read in full</a
   >
+  <Content />
 </BlogPost>
