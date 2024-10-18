@@ -8,3 +8,4 @@ tags:
     - first-post
 ---
 
+# Website Idea for Sharing (Genesis)
