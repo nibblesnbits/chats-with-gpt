@@ -44,18 +44,18 @@ export const socialLinks: Array<SocialLink> = [
 export const NAV_LINKS: Array<{ title: string; path: string }> = [
   {
     title: "Home",
-    path: "/",
+    path: "/chats-with-gpt",
   },
   {
     title: "About",
-    path: "/about",
+    path: "/chats-with-gpt/about",
   },
   {
     title: "Blog",
-    path: "/blog",
+    path: "/chats-with-gpt/blog",
   },
   {
     title: "Archive",
-    path: "/archive",
+    path: "/chats-with-gpt/archive",
   },
 ];

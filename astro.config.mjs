@@ -7,7 +7,7 @@ import tailwind from "@astrojs/tailwind";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://nibblesnbits.github.io/",
+  site: "https://nibblesnbits.github.io",
   base: "chats-with-gpt",
   integrations: [mdx(), sitemap(), tailwind()],
   markdown: {
