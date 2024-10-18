@@ -18,14 +18,15 @@ type SocialLink = {
 }
 
 export const siteConfig: Config = {
-  title: "Astro Theme Cody",
-  description: "",
-  lang: "en-GB",
+  title: "Chats with GPT",
+  description: "My brain's best friend",
+  lang: "en-US",
   profile: {
-    author: "Amy Dang",
-    description: "your bio description"
-  }
-}
+    author: "Stephen Collins",
+    description:
+      "Just an autistic nerd with took much technology at his disposal.",
+  },
+};
 
 /** 
   These are you social media links. 
@@ -36,26 +37,11 @@ export const socialLinks: Array<SocialLink> = [
   {
     icon: "mdi:github",
     friendlyName: "Github",
-    link: "https://github.com/kirontoo/astro-theme-cody",
+    link: "https://github.com/nibblesnbits",
   },
-  {
-    icon: "mdi:linkedin",
-    friendlyName: "LinkedIn",
-    link: "#",
-  },
-  {
-    icon: "mdi:email",
-    friendlyName: "email",
-    link: "mailto:ndangamy@gmail.com",
-  },
-  {
-    icon: "mdi:rss",
-    friendlyName: "rss",
-    link: "/rss.xml"
-  }
 ];
 
-export const NAV_LINKS: Array<{ title: string, path: string }> = [
+export const NAV_LINKS: Array<{ title: string; path: string }> = [
   {
     title: "Home",
     path: "/",
@@ -69,11 +55,7 @@ export const NAV_LINKS: Array<{ title: string, path: string }> = [
     path: "/blog",
   },
   {
-    title: "Projects",
-    path: '/projects'
-  },
-  {
     title: "Archive",
-    path: '/archive'
-  }
+    path: "/archive",
+  },
 ];

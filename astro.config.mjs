@@ -7,18 +7,19 @@ import tailwind from "@astrojs/tailwind";
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://astro-theme-cody.netlify.app',
+  site: "https://nibblesnbits.github.io/",
+  base: "chats-with-gpt",
   integrations: [mdx(), sitemap(), tailwind()],
   markdown: {
     remarkPlugins: [remarkReadingTime],
-    syntaxHighlight: 'shiki',
+    syntaxHighlight: "shiki",
     shikiConfig: {
       // https://docs.astro.build/en/guides/markdown-content/#syntax-highlighting
       themes: {
-        light: 'catppuccin-mocha',
-        dark: 'catppuccin-latte',
+        light: "catppuccin-mocha",
+        dark: "catppuccin-latte",
       },
-    }
+    },
   },
 });
 
