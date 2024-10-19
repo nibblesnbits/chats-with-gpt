@@ -7,12 +7,14 @@ tags:
     - genesis
     - first-post
 heroImage:
-    src: /chats-with-gpt/ImplicationsOfAI.webp
+    src: /chats-with-gpt/hero-images/ImplicationsOfAI.webp
     alt: The implications of AI
 ---
 
 Or, "The Impact Of A Jupiter Brain LLM Consuming The Whole Of Human Digital Output, Continuously".
 
 Or, "ChatGPT Gave Me an Existential Crisis"
+
+> *The above image was what ChatGPT generated when prompted with 'Can you draw something to represent this conversation so I can use that as the header image?'*
 
 
