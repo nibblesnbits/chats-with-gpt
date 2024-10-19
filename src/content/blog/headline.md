@@ -4,8 +4,10 @@ description: "The Impact of a Jupiter Brain LLM"
 pubDate: 2024-10-19
 link: https://chatgpt.com/share/67129f88-9c68-800b-9d2f-d1b5919cc9d1
 tags:
-    - genesis
-    - first-post
+    - existential-crisis
+    - ai
+    - philosophy
+    - technology
 heroImage:
     src: /chats-with-gpt/hero-images/ImplicationsOfAI.webp
     alt: The implications of AI
