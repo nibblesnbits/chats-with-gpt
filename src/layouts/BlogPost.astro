@@ -21,6 +21,7 @@ const {
     title,
     description,
     pubDate,
+    link,
     updatedDate,
     heroImage,
     ogImage,
@@ -129,6 +130,15 @@ const articleDate = updatedDate?.toISOString() ?? pubDate.toISOString();
         audio && (
           <>
             <h3 class="text-accent">Listen to the conversation here:</h3>
+            <p>
+              {" "}
+              <a
+                href="/chats-with-gpt/about#audio"
+                class="italic text-accent sm:hover:underline"
+              >
+                (About the audio version)
+              </a>
+            </p>
             <audio controls>
               <source src={audio} type="audio/mp3" />
               Your browser does not support the audio tag.
@@ -159,9 +169,15 @@ const articleDate = updatedDate?.toISOString() ?? pubDate.toISOString();
       }
     </div>
     <h2>
-      <a href={post.data.link} class="text-accent sm:hover:underline"
-        >Read the Conversation in Full</a
-      >
+      {
+        link ? (
+          <a href={link} class="text-accent sm:hover:underline">
+            Read the Conversation in Full
+          </a>
+        ) : (
+          <span>(Full conversation unavailable)</span>
+        )
+      }
     </h2>
     <BackToTopBtn />
   </article>
