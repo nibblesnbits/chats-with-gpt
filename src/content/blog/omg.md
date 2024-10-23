@@ -14,8 +14,4 @@ heroImage:
     alt: The implications of AI
 ---
 
-
-https://chatgpt.com/share/67190c4e-76b4-800b-b47c-6ed1775730d9
-
-
-It’s like we’re simultaneously capable of exploring the infinite and standing in awe of the vast unknown.
+> It’s like we’re simultaneously capable of exploring the infinite and standing in awe of the vast unknown.
