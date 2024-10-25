@@ -10,7 +10,7 @@ tags:
     - philosophy
     - technology
 heroImage:
-    src: /chats-with-gpt/hero-images/ImplicationsOfAI.webp
+    src: /chats-with-gpt/hero-images/omg.webp
     alt: The implications of AI
 ---
 
