@@ -30,6 +30,7 @@ const {
     draft,
     audio,
     commentary,
+    clip,
   },
 } = post;
 
@@ -140,6 +141,19 @@ const articleDate = updatedDate?.toISOString() ?? pubDate.toISOString();
             </h3>
             <audio controls>
               <source src={commentary} type="audio/mp3" />
+              Your browser does not support the audio tag.
+            </audio>
+          </>
+        )
+      }
+    </div>
+    <div class="mt-4">
+      {
+        clip && (
+          <>
+            <h3 class="text-accent">Listen to the an excerpt</h3>
+            <audio controls>
+              <source src={clip} type="audio/mp3" />
               Your browser does not support the audio tag.
             </audio>
           </>

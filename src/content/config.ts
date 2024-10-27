@@ -17,6 +17,7 @@ const blog = defineCollection({
       description: z.string().max(250),
       link: z.string().url().optional(),
       audio: z.string().optional(),
+      clip: z.string().optional(),
       commentary: z.string().optional(),
       pubDate: z
         .string()
