@@ -127,28 +127,6 @@ const articleDate = updatedDate?.toISOString() ?? pubDate.toISOString();
     </main>
     <div class="mt-4">
       {
-        audio && (
-          <>
-            <h3 class="text-accent">Listen to the conversation here:</h3>
-            <p>
-              {" "}
-              <a
-                href="/chats-with-gpt/about#audio"
-                class="italic text-accent sm:hover:underline"
-              >
-                (About the audio version)
-              </a>
-            </p>
-            <audio controls>
-              <source src={audio} type="audio/mp3" />
-              Your browser does not support the audio tag.
-            </audio>
-          </>
-        )
-      }
-    </div>
-    <div class="mt-4">
-      {
         commentary && (
           <>
             <h3 class="text-accent">
@@ -162,6 +140,28 @@ const articleDate = updatedDate?.toISOString() ?? pubDate.toISOString();
             </h3>
             <audio controls>
               <source src={commentary} type="audio/mp3" />
+              Your browser does not support the audio tag.
+            </audio>
+          </>
+        )
+      }
+    </div>
+    <div class="mt-4">
+      {
+        audio && (
+          <>
+            <h3 class="text-accent">Listen to the full conversation here:</h3>
+            <p>
+              {" "}
+              <a
+                href="/chats-with-gpt/about#audio"
+                class="italic text-accent sm:hover:underline"
+              >
+                (About the audio version)
+              </a>
+            </p>
+            <audio controls>
+              <source src={audio} type="audio/mp3" />
               Your browser does not support the audio tag.
             </audio>
           </>

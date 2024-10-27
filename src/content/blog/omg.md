@@ -4,6 +4,7 @@ description: "omg"
 pubDate: 2024-10-23
 link: https://chatgpt.com/share/67190c4e-76b4-800b-b47c-6ed1775730d9
 audio: /chats-with-gpt/audio/omg.mp3
+commentary: /chats-with-gpt/audio/omg-commentary.mp3
 tags:
     - existential-crisis
     - ai
