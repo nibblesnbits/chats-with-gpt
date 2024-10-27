@@ -1,6 +1,6 @@
 ---
-title: "omg"
-description: "omg"
+title: "The 40-Hour Work Week"
+description: "This one took a turn"
 pubDate: 2024-10-23
 link: https://chatgpt.com/share/67190c4e-76b4-800b-b47c-6ed1775730d9
 audio: /chats-with-gpt/audio/omg.mp3
